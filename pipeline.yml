@@ -4,6 +4,7 @@ resources:
   type: git
   source:
     uri: https://github.com/ships/apt-repo-resource
+    ignore_paths: [pipeline.yml]
 
 - name: base-alpine
   type: docker-image
