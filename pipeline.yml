@@ -20,7 +20,7 @@ resources:
     password: ((dockerhub_ships.password))
 
 jobs:
-- name: rebuild-ubuntu-git
+- name: rebuild
   plan:
   - in_parallel:
     - get: base-alpine
